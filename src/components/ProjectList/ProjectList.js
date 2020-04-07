@@ -13,14 +13,17 @@ class ProjectList extends React.Component{
 
   <div class="w3-row-padding">
 
-    <div className="w3-row-padding w3-center w3-margin-top">
+    <div className="w3-row-padding w3-center w3-margin-top w3-margin-bottom">
 
       {this.props.projects.map(project =>{
         return <Project
             name={project.name}
             project={project}
             technologies={project.technologies}
-            description={project.description}/> })
+            description={project.description}
+            whyMade = {project.whyMade}
+            moreDetails = {project.moreDetails}
+            /> })
       }
       
     </div>

@@ -10,7 +10,7 @@ class Button extends React.Component{
   render(){
     return (
     <div>
-      <a class="w3-button w3-theme w3-third">{this.props.name}</a>
+      <a class="w3-button w3-theme w3-third" href= {this.props.href}>{this.props.name}</a>
     </div>
     );
   }

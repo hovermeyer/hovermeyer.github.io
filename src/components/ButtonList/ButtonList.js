@@ -18,9 +18,10 @@ class ButtonList extends React.Component{
         this.props.buttons.map(button =>{
        return <Button
           name={button.name}
-          Button={button}
+          button={button}
           technologies={button.technologies}
-          description={button.description}/> })
+          description={button.description}
+          href= {button.href}/> })
      }
     
   </div>
