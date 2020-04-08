@@ -20,9 +20,9 @@ class Project extends React.Component{
         {
           this.props.technologies.map(technology =>{
         return (
-        <div className="w3-half w3-margin-bottom w3-container">
-          <div className="w3-card w3-container">
-            <p>{technology.name}</p>
+        <div className="w3-container">
+          <div className=" w3-card w3-blue-grey w3-container">
+            <p>{technology}</p>
           </div>
         </div>)
       })}
@@ -30,6 +30,10 @@ class Project extends React.Component{
 
       <p>{this.props.description}</p>
       <p>{this.props.moreDetails}</p>
+
+      <a className="w3-button w3-theme">Try it!</a>
+      <a className="w3-button w3-theme">See code</a>
+
 
 
 
