@@ -15,12 +15,17 @@ class App extends React.Component{
         technologies:["PhaserJS"],
         whyMade:"A fun game to celebrate a quarantine birthday.",
         description:"Complete 5 different games to get a birthday message.",
-        moreDetails: "I learned PhaserJS and adapted some games to create a custom game for a 10th birthday.  This was my first attempt at creating something with PhaserJS"},
+        moreDetails: "I learned PhaserJS and adapted some games to create a custom game for a 10th birthday.  This was my first attempt at creating something with PhaserJS",
+        image: "darren_screenshot.png",
+        live:"https://hovermeyer.github.io/birthday-game/",
+        code:"https://github.com/hovermeyer/birthday-game"},
       {name:"Jammming", 
         technologies:["React"],
         whyMade: "Final project for 'Build Front-End Web Applications from Scratch' course on Codecademy",
         description:"Uses the spotify API to create custom playlists. ",
-        moreDetails: "Added the following custom abilities:"} ]);
+        moreDetails: "Added the following custom abilities:",
+        live:"https://hovermeyer.github.io/jammming/",
+        code:"https://github.com/hovermeyer/jammming"} ]);
   }
 
 
@@ -63,9 +68,9 @@ class App extends React.Component{
             <h1 style ={{fontSize:50}}> Heather Overmeyer</h1>
             <p><i>BBA, BMath</i></p>
             
-            <div className="w3-half" >
+            <div className="w3-half" style={{textAlign:'left'}}>
               <h3 >I love to:</h3>
-              <list style={{textAlign:'left'}}>
+              <list >
                 <li>create things that improve how people and organizations work</li>
                 <li>travel</li>
                 <li>learn new things</li>
@@ -74,9 +79,9 @@ class App extends React.Component{
               </list>
             </div>
 
-            <div className="w3-half">
+            <div className="w3-half" style={{textAlign:'left'}}> 
               <h3 >I want to work somewhere:</h3>
-              <list  style={{textAlign:'left'}}>
+              <list  >
                 <li>with learning opportunities</li>
                 <li>where I can contribute as part of a team</li>
                 <li>that builds solutions to real problems</li>

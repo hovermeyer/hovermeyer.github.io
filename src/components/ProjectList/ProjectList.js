@@ -23,6 +23,9 @@ class ProjectList extends React.Component{
             description={project.description}
             whyMade = {project.whyMade}
             moreDetails = {project.moreDetails}
+            image = {project.image}
+            live = {project.live}
+            code = {project.code}
             /> })
       }
       
