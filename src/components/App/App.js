@@ -41,7 +41,7 @@ class App extends React.Component{
         blurb:"I worked with a team of 25 specialists sourcing parts from North America and Japan.  "
         +"I created tools to make critical daily tasks faster and more accurate.",
         development: ["Created automatic pulls of CSV information",
-          "Created queries and tables to ",
+          "Created queries and scripts which improved data validation",
           "Created Excel, Access and PowerBI tools to view and manipulate data",
           "Used JIRA to create requirements and complete user acceptance testing"],
         other:["Acted as the subject matter expert on custom ordering software",
@@ -61,7 +61,7 @@ class App extends React.Component{
       {employer:"Simcoe Muskoka Catholic District School Board", 
         link: "https://www.mathclips.ca/",
         title: "Developer - Math CLIPS",
-        blurb: "I worked worked with a team of developers and teachers across Ontario to create "
+        blurb: "I worked with a team of developers and teachers across Ontario to create "
         +" Math Learning Objects based in Flash." ,
         datesEmployed:"May 2009 - June 2013",
         development: ["Used TortoiseSVN for version control", 
