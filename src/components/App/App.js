@@ -23,7 +23,8 @@ class App extends React.Component{
         technologies:["React"],
         whyMade: "Final project for 'Build Front-End Web Applications from Scratch' course on Codecademy",
         description:"Uses the spotify API to create custom playlists. ",
-        moreDetails: "Added the following custom abilities:",
+        moreDetails: "I added some custom abilities including displaying duration and search on enter.",
+        image: "jammming.png",
         live:"https://hovermeyer.github.io/jammming/",
         code:"https://github.com/hovermeyer/jammming"} ]);
   }
@@ -48,16 +49,25 @@ class App extends React.Component{
         "Trained other team members on concepts of ordering", 
         "Worked with local, regional and global IS teams for feature requests and troubleshooting"
         ]},
+        {employer:"Technovation", 
+        link: "https://technovationchallenge.org/",
+        title: "Volunteer Mentor",
+        blurb: "I am a mentor for a team of 4 girls to create a mobile app which solves a problem in the community.  " +
+        " I have helped them through ideation and creation of their app." ,
+        datesEmployed:"January 2020 - ",
+        development: ["Using Thunkable to create mobile apps using block programming", 
+        "Teaching team programming concepts"],
+        other:["Keep team on track to meet deadline"]},
       {employer:"Simcoe Muskoka Catholic District School Board", 
         link: "https://www.mathclips.ca/",
-        title: "Developer -Math CLIPS",
+        title: "Developer - Math CLIPS",
         blurb: "I worked worked with a team of developers and teachers across Ontario to create "
         +" Math Learning Objects based in Flash." ,
-        datesEmployed:"May 2009- June 2013",
+        datesEmployed:"May 2009 - June 2013",
         development: ["Used TortoiseSVN for version control", 
         "Created tools for other developers",
         "Worked in ActionScript 2.0 and 3.0"],
-        other:["working with a remote team"]}]   );
+        other:["Working with a remote team"]}]   );
   }
 
 
@@ -96,7 +106,7 @@ class App extends React.Component{
                 </button>
                 <div class="w3-dropdown-content w3-card-4 w3-bar-block">
                   <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-                  <a href="#experience" class="w3-bar-item w3-button">Work Experience</a>
+                  <a href="#experience" class="w3-bar-item w3-button">Highlighted Experience</a>
                   <a href="#projects" class="w3-bar-item w3-button">Projects </a>
                 </div>
               </div>
@@ -140,8 +150,10 @@ class App extends React.Component{
           </div>
 
           <div className="w3-container w3-black w3-center">
-            <h2 id="experience">Work Experience</h2>
+            <h2 id="experience">Highlighted Experience</h2>
           </div>
+          <p>These are the jobs and volunteer positions which had development related aspects. For a full list of my work experience, visit my  
+          <a href='https://www.linkedin.com/in/heather-overmeyer' target="_blank"> LinkedIn profile. </a></p>
           <ExperienceList experiences={this.returnExperiences()} />
 
           

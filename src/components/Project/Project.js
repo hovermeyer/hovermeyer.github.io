@@ -11,9 +11,9 @@ class Project extends React.Component{
 
   picture(){
     if (!this.props.image){
-      return <div className="w3-container" style={{width:120, height:100}}></div>
+      return <div className="w3-container" style={{height:100}}></div>
     }else{
-      return <img src={require(`../../../public/${this.props.image}`)} style={{width:125, height:125}}/>
+      return <img src={require(`../../../public/${this.props.image}`)} style={{height:125}}/>
     }
   }
 
