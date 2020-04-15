@@ -23,7 +23,7 @@ class App extends React.Component{
         technologies:["React"],
         whyMade: "Final project for 'Build Front-End Web Applications from Scratch' course on Codecademy",
         description:"Uses the spotify API to create custom playlists. ",
-        moreDetails: "I added some custom abilities including displaying duration and search on enter.",
+        moreDetails: "I added some custom abilities including displaying duration, search on enter and getting recommendations based on current songs.",
         image: "jammming.png",
         live:"https://hovermeyer.github.io/jammming/",
         code:"https://github.com/hovermeyer/jammming"} ]);
